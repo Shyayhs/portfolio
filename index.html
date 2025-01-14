@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedro Lucas - Desenvolvedor Frontend Júnior</title>
+    
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variavel.css" />
+    <link rel="stylesheet" href="./src/css/globais.css" />
+    <link rel="stylesheet" href="./src/css/secoes/header.css" />
+    <link rel="stylesheet" href="./src/css/secoes/home.css" />
+    <link rel="stylesheet" href="./src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="./src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="./src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="./src/css/secoes/footer.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between alinhar-itens-no-centro">
+                <a class="link-logo" href="#">
+                    <h1 class="logo">PL</h1>
+                </a>
+
+                <nav>
+                    <input id="menu-hamburguer" type="checkbox" />
+
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+
+                    <ul>
+                        <li><a href="#sobre-mim">Sobre mim</a></li>
+
+                        <li><a href="#habilidades">Habilidades</a></li>
+
+                        <li><a href="#projetos">Meus projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container">
+            <div class="row full-screen alinhar-itens-no-centro">
+                <div class="texto-home">
+                    <p>Olá,</p>
+
+                    <h1>Sou o Pedro Lucas</h1>
+
+                    <h2>Desenvolvedor Frontend Júnior</h2>
+
+                    <div class="redes-sociais">
+                        <a href="https://www.linkedin.com/in/pedro-lucas-rocha/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+
+                        <a href="https://github.com/Shyayhs" class="outer-shadow"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="img-home">
+                    <div class="img-box inner-shadow">
+                        <img class="outer-shadow" src="./src/image/foto-perfil.jpeg" alt="foto do perfil do Pedro" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre-mim section" id="sobre-mim">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Sobre mim</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="informacoes-sobre-mim">
+                    <p>
+                        <strong>Olá! Me chamo Pedro Lucas e sou um desenvolvedor frontend em
+                        formação!</strong>
+                        <br>
+                        Gosto da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as
+                        minhas habilidades.
+                    </p>
+
+                    <p>
+                        Estou sempre me desafiando com novos projetos e participando de comunidades de programação para
+                        buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas
+                        com o que eu já aprendi.
+                    </p>
+
+                    <p>
+                        Gosto de jogos, filmes, séries, animes, entre outros.
+                    </p>
+
+                    <div class="botoes">
+                        <a target="_blank" href="./src/arquivo/CV_PedroLucas.pdf" class="botao outer-shadow">Veja meu Currículo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Habilidades</h2>
+                </div>
+            </div>
+
+            <div class="container-habilidades">
+                <div class="informacoes javascript">
+                    <div class="logo">
+                        <i class="devicon devicon-javascript-plain" id="javascript"></i>
+                    </div>
+
+                    <h3>JavaScript</h3>
+
+                    <p>Estou aprendendo a usar JS, já aprendi a linguagem de forma básica, promises, callbacks, async/await e APIs</p>
+                </div>
+
+                <div class="informacoes html">
+                    <div class="logo">
+                        <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+                    </div>
+
+                    <h3>HTML5</h3>
+
+                    <p>Tenho uma boa base de HTML, montando a estrutura do site de forma semântica e efetiva</p>
+                </div>
+
+                <div class="informacoes css">
+                    <div class="logo">
+                        <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+                    </div>
+
+                    <h3>CSS3</h3>
+
+                    <p>Consigo criar sites responsivos, estilizados com flex ou grid e pequenas animações</p>
+                </div>
+
+                <div class="informacoes github">
+                    <div class="logo">
+                        <i class="devicon devicon-github-original" id="github"></i>
+                    </div>
+
+                    <h3>GitHub</h3>
+                    
+                    <p>Sei o suficiente para versionar meu código no GitHub</p>
+                </div>
+
+                <div class="informacoes git">
+                    <div class="logo">
+                        <i class="devicon devicon-git-plain" id="git"></i>
+                    </div>
+
+                    <h3>Git</h3>
+
+                    <p>Aprendi alguns comandos para conectar um diretório com um repositório no GitHub e atualizar os meus códigos e suas versões</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projetos section" id="projetos">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Meus projetos</h2>
+                </div>
+            </div>
+
+            <div class="container-projetos">
+                <div class="projeto">
+                    <a href="https://shyayhs.github.io/landing-page-advocacia-trabalhista/" target="_blank">
+                        <img src="./src/image/projeto-la.png" alt="Assitência e Consultoria Jurídica Leandro Albertino" />
+
+                        <h3>Assitência e Consultoria Jurídica Leandro Albertino</h3>
+
+                        <div class="informacoes-projeto">
+                            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://shyayhs.github.io/projeto-fetch-github/" target="_blank">
+                        <img src="./src/image/projeto-fetch-github.png" alt="Fetch Github" />
+
+                        <h3>Fetch Github</h3>
+
+                        <div class="informacoes-projeto">
+                            <p>Projeto feito usando HTML, CSS e JavaScript</p>
+
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://shyayhs.github.io/frontend-mentor-fylo-data-storage/" target="_blank">
+                        <img src="./src/image/projeto-fylo-data-storage.png" alt="Fylo Data Storage" />
+
+                        <h3>FrontEnd Mentor - Fylo Data Storage</h3>
+
+                        <div class="informacoes-projeto">
+                            <p>Projeto feito usando HTML e CSS</p>
+
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="projeto">
+                    <a href="https://shyayhs.github.io/frontend-mentor-bento-grid/" target="_blank">
+                        <img src="./src/image/projeto-bento-grid.png" alt="Bento Grid" />
+
+                        <h3>FrontEnd Mentor - Bento Grid</h3>
+
+                        <div class="informacoes-projeto">
+                            <p>Projeto feito usando HTML e CSS</p>
+
+                            <p>🔗 Ver no GitHub Pages</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h2>Entre em contato</h2>
+
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/in/pedro-lucas-rocha/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="https://github.com/Shyayhs" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
